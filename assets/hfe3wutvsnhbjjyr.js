@@ -1,0 +1,2 @@
+import"./khl8ktun31iepecq.js";import{aV as n}from"./n4exq6o15ap1g74l.js";function i(e){return e==n.User||e==n.Group?n.Private:e==n.WorkspaceLink?n.Workspace:e}function f(e,o){return e=i(e),o===void 0?!1:o.some(r=>r.recipient===e&&r.allowed)}function d(e,o){return o===void 0?[]:(e=i(e),o.find(t=>t.recipient===e)?.moderated_fields)}function u(e,o){const r=d(e,o);return r&&r.length>0}export{d as g,u as h,f as i};
+//# sourceMappingURL=hfe3wutvsnhbjjyr.js.map
